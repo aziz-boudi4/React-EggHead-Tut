@@ -1,0 +1,1 @@
+App-Component-Lyfecycle-updating.js
