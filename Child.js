@@ -1,5 +1,9 @@
 var React = require('react');
 
+// Take care of the select element 
+// changes the value with the event handler
+
+
 var Child = React.createClass({
   handleChange: function (e) {
     var name = e.target.value;

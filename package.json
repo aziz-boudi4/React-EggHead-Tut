@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  		"start": "webpack-dev-server" 
+    "start": "webpack-dev-server",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "aziz",
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-storybook-addon-backgrounds": "0.0.4"
   },
   "devDependencies": {
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "@kadira/storybook": "^2.21.0"
   }
 }
